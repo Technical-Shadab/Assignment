@@ -1,0 +1,52 @@
+
+			Waterfall Model
+
+Advantages-
+
+1. This model is simple and easy to understand and use.
+2. It is easy to manage due to the rigidity of the model – each phase has specific deliverables and a review process.
+3. In this model phases are processed and completed one at a time.
+4. Phases do not overlap.
+5. Waterfall model works well for smaller projects where requirements are clearly defined and very well understood.
+6. The waterfall model determines the end goal early.
+7. The waterfall model keeps a project to a specific timescale.
+
+
+Disadvantages-
+
+1. Once an application is in the testing stage, it is very difficult to go back and change something that was not well-thought out in the concept stage.
+2. High amounts of risk and uncertainty.
+3. Not a good model for complex and object-oriented projects.
+4. Poor model for long and ongoing projects.
+5. Not suitable for the projects where requirements are at a moderate to high risk of changing.
+6. It can invalidate the work we’ve previously accomplished.
+7. This method excludes end-users and clients.
+8. The waterfall model can promote longer delivery times.
+9. It typically works better for small projects.
+
+
+
+
+				V-Model
+
+Advantages-
+
+1. This is a highly disciplined model and Phases are completed one at a time.
+2. Simple and easy to use.
+3. Testing activities like planning, test designing happens well before coding.
+4. This saves a lot of time.
+5. Avoids the downward flow of the defects.
+6. Works well for small projects where requirements are easily understood..
+7. Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
+
+Disadvantages-
+
+1. High risk and uncertainty.
+2. Not a good model for complex projects.
+3. Poor model for long and ongoing projects.
+4. Not suitable for the projects where requirements are changing.
+5. Once an application is in the testing stage, it is difficult to go back and change a functionality.
+6. If any changes happen in midway, then the test documents along with requirement documents has to be updated.
+
+
+

@@ -1,0 +1,50 @@
+		Difference between SDLC and STLC
+
+SDLC:-
+
+SDLC stands for Software Development life cycle.
+
+SDLC is a sequence of different activities performed during the software development process.
+
+it is  mainly related to software development.
+
+It helps in developing good quality software.
+ 
+SDLC involves total six phases or steps.
+
+In SDLC, more number of developers are required for the whole process.
+
+In SDLC, development team makes the plans and designs.
+
+Goal of SDLC is to complete successful development of software.
+
+
+		
+STLC:-
+
+STLC stands for Software Testing Life Cycle.
+
+STLC is a sequence of different activities performed during the software testing process.
+
+It helps in making the software defects free.
+
+STLC involves only five phases or steps.
+
+It focuses only on testing the software.
+
+In SDLC, more number of developers are required for the whole process.
+
+In STLC, testing team makes the plans and designs.
+
+Goal of STLC is to complete successful testing of software.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+
+ -Equivalence partitioning means we should pick up exactly one value from each partition
+ ( divides input values into the partitions
+ test each partition ONCE)
+
+
+benifits- it saves time
+ 	fix more defects
+
+Example-
+
+  >50000 <= 60000 10%
+ >60000 <= 150000 20%
+  of 18 
+ 
+    0 50000  ------> -1,25000,				-1, 0, 1		49999 50000 50001
+50001 60000  ------> 55000,				50002		59999 60000 60001
+60001 150000 ------> 100000, 160000			60002		149999 150000 150001
+
+
+
+ question- one of the fields on a form contains a text box that accepts numeric values in the range of 18 to 25. Identify the invalid Equivalence class.
+
+Class I: values < 18   => invalid class
+Class II: 18 to 25       => valid class
+Class III: values > 25 => invalid class		
+
+	invalid  cases				valid cases 				invalid cases
+	17					18					26
+	16					19					27
+	15					....					......
+	.....					25
+	
+
+
+ question- In an Examination, a candidate has to score a minimum of 24 marks in order to clear the exam. The maximum that he can score is 40 marks. Identify the Valid Equivalence values if the student clears the exam.
+
+Class I: values < 24   => fail
+Class II: 24 to 40       => pass
+Class III: values > 40 => invalid score			
+
+	invalid  cases				valid cases 				invalid cases
+	23					24					41
+	22					25					42
+	21					....					......
+	.....					40
+
+question- The Switch is switched off once the temperature falls below 18 and then it is turned on when the temperature is more than 21. When the temperature is more than 21. Identify the Equivalence values
+
+
+Class I: less than 18 (switch turned off)
+Class II: 18 to 21
+Class III: above 21 (switch turned on)			ans--->22,23,24
+
+0 to 23 - fail	15
+24 to 40 - pass 30
+more than 40 - Invalid Score 45 
+
+ 
+
+  -Boundary values Analysis - test BOTH SIDES of each boundary (assumption is that the system behaves differrently on either side of the boundary )
+
+ Question - A program validates a numeric field as follows: values less than 10 are rejected, values between 10 and 21 are accepted, values greater than or equal to 22 are rejected.
+
+ 	invalid cases		valid cases			invalid cases
+	9			10,11,20,21			22
+
+ Question - Given the following specification, which of the following values for age are in the SAME equivalence 	partition?
+ 
+ 	 If you are less than 18, you are too young to be insured.
+	Between 18 and 30 inclusive, you will receive a 20% discount.
+	Anyone over 30 is not eligible for a discount.
+
+ The classes will be as follows:
+ Class I: age < 18       =>  insured
+ Class II: age 18 to 30 => 20 % discount
+ Class III: age > 30     => no discount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
